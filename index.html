@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Habibullah Hatchery Hub</title>
+<style>
+:root {
+  --green: #174b2b;
+  --gold: #d7ad43;
+  --cream: #fffaf0;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f8f3;
+  color: #263529;
+}
+header {
+  background: var(--green);
+  color: white;
+  padding: 22px 15px;
+  text-align: center;
+}
+header h1 { margin: 0 0 8px; }
+nav a {
+  color: white;
+  margin: 0 8px;
+  text-decoration: none;
+}
+.hero {
+  background: var(--cream);
+  text-align: center;
+  padding: 35px 15px;
+}
+.hero h2 { color: var(--green); font-size: 30px; }
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 25px 15px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px #00000012;
+  padding-bottom: 18px;
+}
+.product-photo {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #e8f0e5;
+  display: block;
+}
+.photo-placeholder {
+  height: 180px;
+  background: #e8f0e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65px;
+}
+.card h3, .card p { padding: 0 15px; }
+.card h3 { color: var(--green); }
+.price {
+  font-size: 23px;
+  font-weight: bold;
+  color: var(--green);
+}
+.btn {
+  display: block;
+  margin: 12px 15px 0;
+  padding: 12px;
+  border-radius: 7px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+.order { background: var(--green); color: white; }
+.whatsapp { background: #168b45; color: white; }
+.bank {
+  background: white;
+  border-radius: 12px;
+  padding: 22px;
+  line-height: 1.9;
+}
+.notice {
+  background: #fff2cc;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+footer {
+  background: var(--green);
+  color: white;
+  padding: 25px 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🐣 Habibullah Hatchery Hub</h1>
+  <p>Quality Day-Old Chicks • Hatchery Services • Trusted Farm Solutions</p>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#payment">Payment</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Your Trusted Poultry Partner</h2>
+  <p>Buy day-old chicks and book egg incubation services.</p>
+  <p>Healthy birds. Fair prices. Easy WhatsApp ordering.</p>
+  <a class="btn whatsapp"
+     style="display:inline-block"
+     href="https://wa.me/2348035990419"
+     target="_blank" rel="noopener">
+     Chat With Us on WhatsApp
+  </a>
+</section>
+
+<section class="container" id="products">
+  <h2 style="color:#174b2b">Our Products and Prices</h2>
+
+  <div class="products">
+
+    <!-- PRODUCT 1 -->
+    <div class="card">
+      <div class="photo-placeholder">🐤</div>
+      <h3>Local Day-Old Chicks</h3>
+      <p>Kazar gida</p>
+      <p class="price">₦500 <small>/ chick</small></p>
+      <a class="btn order" href="https://wa.me/2348035990419?text=Hello%2C%20I%20want%20to%20order%20Local%20Day-Old%20Chicks%20(Kazar%20gida)%20at%20N500%20per%20chick.%20Please%20confirm%20availability%20and%20delivery%20fee."
+      target="_blank" rel="noopener">Order on WhatsApp</a>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="card">
+      <div class="photo-placeholder">🪶</div>
+      <h3>Local Guinea Fowl Day-Old Chicks</h3>
+      <p>Zabuwan gida</p>
+      <p class="price">₦800 <small>/ chick</small></p>
+      <a class="btn order" href="https://wa.me/2348035990419?text=Hello%2C%20I%20want%20to%20order%20Local%20Guinea%20Fowl%20Day-Old%20Chicks%20(Zabuwan%20gida)%20at%20N800%20per%20chick.%20Please%20confirm%20availability%20and%20delivery%20fee."
+      target="_blank" rel="noopener">Order on WhatsApp</a>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="card">
+      <div class="photo-placeholder">🐥</div>
+      <h3>Noiler Day-Old Chicks</h3>
+      <p>Day-old poultry chicks</p>
+      <p class="price">₦1,300 <small>/ chick</small></p>
+      <a class="btn order" href="https://wa.me/2348035990419?text=Hello%2C%20I%20want%20to%20order%20Noiler%20Day-Old%20Chicks%20at%20N1300%20per%20chick.%20Please%20confirm%20availability%20and%20delivery%20fee."
+      target="_blank" rel="noopener">Order on WhatsApp</a>
+    </div>
+
+    <!-- PRODUCT 4 -->
+    <div class="card">
+      <div class="photo-placeholder">🦃</div>
+      <h3>Turkey Poults</h3>
+      <p>Young turkeys</p>
+      <p class="price">₦1,800 <small>/ bird</small></p>
+      <a class="btn order" href="https://wa.me/2348035990419?text=Hello%2C%20I%20want%20to%20order%20Turkey%20Poults%20at%20N1800%20per%20bird.%20Please%20confirm%20availability%20and%20delivery%20fee."
+      target="_blank" rel="noopener">Order on WhatsApp</a>
+    </div>
+
+    <!-- PRODUCT 5 -->
+    <div class="card">
+      <div class="photo-placeholder">🥚</div>
+      <h3>Egg Incubation Service</h3>
+      <p>Egg hatching service</p>
+      <p class="price">₦300 <small>/ egg</small></p>
+      <a class="btn order" href="https://wa.me/2348035990419?text=Hello%2C%20I%20want%20to%20book%20your%20Egg%20Incubation%20Service%20at%20N300%20per%20egg.%20Please%20confirm%20availability%20and%20terms."
+      target="_blank" rel="noopener">Book on WhatsApp</a>
+    </div>
+
+    <!-- PRODUCT 6 -->
+    <div class="card">
+      <div class="photo-placeholder">🐦</div>
+      <h3>Broiler Guinea Fowl Day-Old Chicks</h3>
+      <p>Zabuwan gona</p>
+      <p class="price">₦1,300 <small>/ item</small></p>
+      <a class="btn order" href="https://wa.me/2348035990419?text=Hello%2C%20I%20want%20to%20order%20Broiler%20Guinea%20Fowl%20Day-Old%20Chicks%20(Zabuwan%20gona)%20at%20N1300%20per%20item.%20Please%20confirm%20availability%20and%20delivery%20fee."
+      target="_blank" rel="noopener">Order on WhatsApp</a>
+    </div>
+
+  </div>
+
+  <div class="notice">
+    <strong>Delivery:</strong> Delivery charges are separate.
+    Please contact us to confirm the delivery fee, availability
+    and total amount before making payment.
+  </div>
+</section>
+
+<section class="container" id="payment">
+  <h2 style="color:#174b2b">Bank Payment Details</h2>
+  <div class="bank">
+    <strong>Bank:</strong> Lotus Bank<br>
+    <strong>Account Name:</strong> Habibullah Hatchery Hub<br>
+    <strong>Account Number:</strong> 1014723732
+    <p>Please confirm your order and total payment with us before transferring.</p>
+  </div>
+</section>
+
+<section class="container" id="contact">
+  <h2 style="color:#174b2b">Contact Us</h2>
+  <p><strong>Business:</strong> Habibullah Hatchery Hub</p>
+  <p><strong>WhatsApp:</strong> 08035990419</p>
+  <p><strong>Location:</strong> State Low Cost, behind Alwahda Table Water,
+  bypass, Azare, Bauchi State, Nigeria.</p>
+  <a class="btn whatsapp"
+     href="https://wa.me/2348035990419?text=Hello%20Habibullah%20Hatchery%20Hub"
+     target="_blank" rel="noopener">
+     Send Us a Message
+  </a>
+</section>
+
+<footer>
+  <h3>Habibullah Hatchery Hub 🐣</h3>
+  <p>Quality Day-Old Chicks • Healthy Birds • Trusted Farm Solutions</p>
+  <small>© Habibullah Hatchery Hub</small>
+</footer>
+
+</body>
+</html>
